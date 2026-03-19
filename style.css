@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding:0;
+  background-color: #f6ead8;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+/*Зроби цей сайт красивим 😉*/
+.logo{
+    font-family: "Courgette", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.menu a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #2F2105;
+    margin: 0px 20px;
+    
+}
+.search{
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 8px;
+    box-shadow: 3px 4px 15px black;
+}
+span{
+    color: orange;
+}
+.hero{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text h1{
+    font-size: 40px;
+    color: #2F2105;
+}
+.hero-text p{
+    color: #666;
+}
+.hero-img img{
+    width: 300px;
+}
+.btn1{
+    color:white;
+    background-color: #2F2105;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 30px;
+}
+.btn2{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 40px;
+}
